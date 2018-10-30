@@ -10,6 +10,7 @@
     "seed": "node scripts/seedDB.js",
     "build": "node scripts/build.js",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd client && npm install && npm run build && cd ..",
     "installDeps": "yarn && cd client && yarn"
   },
   "author": "",
