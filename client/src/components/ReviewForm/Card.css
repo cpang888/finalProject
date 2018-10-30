@@ -1,0 +1,13 @@
+.card {
+    margin-top: 80px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.input {
+    width: 280px;
+}
+
+.text_area {
+    width: 280px; 
+}

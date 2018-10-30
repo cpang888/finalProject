@@ -1,0 +1,39 @@
+@font-face {
+    font-family: CafeFrancoise;
+    src: url(../assets/CafeFrancoise.otf);
+}
+
+/* .navbar-background {
+    background-color: #34211D;
+} */
+
+.uk-navbar {
+    z-index: 1;
+}
+
+.navbar-logo {
+    color: #B17C52;
+    font-family: CafeFrancoise, Helvetica;
+    font-size: 28px;
+    margin-left: 25px;
+}
+
+.navbar-logo a:hover, .navbar-logo a:focus, .navbar-logo a:active, .navbar-logo a {
+    text-decoration: none;
+    color: #B17C52;
+}
+
+.inline-form {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #999 !important;
+}
+
+.search-icon {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.uk-search-input {
+    font-size: 18px !important;
+}

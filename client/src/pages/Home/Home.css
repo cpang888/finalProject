@@ -1,0 +1,13 @@
+.background {
+    background-color: white;
+    background: url("../../components/assets/coffee_bean_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+
+/* html {
+    background-color: white;
+} */

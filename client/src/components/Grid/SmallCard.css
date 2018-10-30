@@ -1,0 +1,56 @@
+.smallCard {
+    width: 250px;
+    height: 280px;
+    margin: 10px;
+    float: left;
+    /* text-align: center;  */
+    opacity: .9;
+}
+
+.allCards {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.image {
+   height: 140px;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   object-fit: contain;
+   /* border-bottom: 1px solid gray; */
+   background-color: #eee;
+}
+
+.coffeeName {
+    position: absolute;
+    top: 130px;
+    font-size: 16px;
+    
+    /* border-bottom: 1px solid #241512; */
+ 
+}
+
+.averageRating {
+    position: absolute;
+    top: 200px;
+    font-size: 20px;
+}
+
+.price {
+   margin-bottom: 15px !important;
+   color: black;
+}
+
+.origin {
+    color: black;
+}
+
+.overlay {
+    height: 50%;
+    background-color: #eee;
+    opacity: 1;
+}
+

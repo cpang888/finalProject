@@ -1,0 +1,33 @@
+@font-face {
+    font-family: CafeFrancoise;
+    src: url(../assets/CafeFrancoise.otf);
+}
+
+.largeCard {
+    margin-top: 80px;
+    height: 500px;
+}
+
+.coffeeBeanImage {
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.title {
+    color: #241512;
+    font-family: CafeFrancoise, Helvetica;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 640px) {
+    .coffeeBeanImage {
+        width: 40%;
+        height: 100%;
+    }
+}
